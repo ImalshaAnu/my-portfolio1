@@ -1,0 +1,46 @@
+/* Footer Component Styles */
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 20px;
+  background: var(--surface);
+  margin-top: auto;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer .container span {
+  color: var(--muted);
+}
+
+.footer .social {
+  display: flex;
+  gap: 12px;
+}
+
+.footer .social a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer .social a:hover {
+  color: var(--primary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+  }
+}

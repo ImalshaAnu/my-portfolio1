@@ -1,0 +1,47 @@
+.coco-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.coco-hero {
+  text-align: center;
+}
+
+.coco-title {
+  margin: 0 0 8px 0;
+  color: var(--primary);
+}
+
+.coco-subtitle {
+  color: var(--muted);
+}
+
+.coco-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.coco-video-card, .coco-description-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.coco-video-card { padding: 0; }
+.coco-video { width: 100%; height: auto; display: block; }
+.coco-description-card { padding: 24px; }
+.coco-description-card h2 { margin-top: 0; }
+
+.coco-meta { margin-top: 12px; display: grid; gap: 8px; }
+.coco-meta .meta-item span { color: var(--primary); font-weight: 600; margin-right: 6px; }
+
+.coco-actions { margin-top: 16px; display: flex; gap: 12px; }
+
+@media (max-width: 900px) { .coco-content { grid-template-columns: 1fr; } }
+
+
