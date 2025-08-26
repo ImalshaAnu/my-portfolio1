@@ -18,7 +18,7 @@ function Projects() {
                 ))}
               </div>
               <div className="actions">
-                {p.title === "Cocolanka" ? (
+                {p.title === "Coconut Products E-commerce Website" ? (
                   <a className="btn primary" href="/projects/cocolanka">Live</a>
                 ) : (
                   p.live && (

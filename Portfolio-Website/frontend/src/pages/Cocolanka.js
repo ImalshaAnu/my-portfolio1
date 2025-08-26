@@ -5,7 +5,7 @@ function Cocolanka() {
   return (
     <section className="coco-page section">
       <div className="coco-hero">
-        <h1 className="coco-title">Cocolanka</h1>
+        <h1 className="coco-title">Coconut Products E-commerce Website</h1>
         <p className="coco-subtitle">Full‑stack web application built with Spring Boot, React, and SQL Server.</p>
       </div>
 
@@ -32,7 +32,7 @@ function Cocolanka() {
         <div className="coco-description-card">
           <h2>Project Overview</h2>
           <p>
-            Cocolanka is a feature‑rich platform for managing coconut product operations. It includes role‑based
+            Coconut Products E-commerce Website is a feature‑rich platform for managing coconut product operations. It includes role‑based
             authentication, product management, order workflows, and analytics dashboards. The backend is powered by
             Spring Boot REST APIs with robust validation and layered architecture, while the frontend is a responsive
             React app.

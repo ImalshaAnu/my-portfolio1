@@ -71,7 +71,7 @@ const profile = {
       source: "https://github.com/ImalshaAnu/FInanceTracker",
     },
     {
-      title: "Cocolanka",
+      title: "Coconut Products E-commerce Website",
       description:
         "Developed a full-stack web application using Spring Boot (backend), React (frontend), and MySQL (database). Implemented RESTful APIs, integrated database operations, and built responsive user interfaces for smooth user experience.",
       tags: ["Spring Boot", "React", "SQL Server"],
