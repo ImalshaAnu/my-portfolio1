@@ -20,6 +20,8 @@ function Projects() {
               <div className="actions">
                 {p.title === "Coconut Products E-commerce Website" ? (
                   <a className="btn primary" href="/projects/cocolanka">Live</a>
+                ) : p.title === "Expenses Tracking App" ? (
+                  <a className="btn primary" href="/projects/expenses">Live</a>
                 ) : (
                   p.live && (
                     <a className="btn primary" href={p.live} target="_blank" rel="noreferrer">Live</a>

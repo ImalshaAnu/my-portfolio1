@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Cocolanka from "./pages/Cocolanka";
+import Expenses from "./pages/Expenses";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
             }
           />
           <Route path="/projects/cocolanka" element={<Cocolanka />} />
+          <Route path="/projects/expenses" element={<Expenses />} />
         </Routes>
       </main>
       <Footer />
