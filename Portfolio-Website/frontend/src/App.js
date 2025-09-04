@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Cocolanka from "./pages/Cocolanka";
 import Expenses from "./pages/Expenses";
+import Food from "./pages/food";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           />
           <Route path="/projects/cocolanka" element={<Cocolanka />} />
           <Route path="/projects/expenses" element={<Expenses />} />
+          <Route path="/projects/food" element={<Food />} />
         </Routes>
       </main>
       <Footer />

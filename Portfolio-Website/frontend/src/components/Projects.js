@@ -22,6 +22,8 @@ function Projects() {
                   <a className="btn primary" href="/projects/cocolanka">Live</a>
                 ) : p.title === "Expenses Tracking App" ? (
                   <a className="btn primary" href="/projects/expenses">Live</a>
+                ) : p.title === "Surplus Food Reduction and Redistribution System" ? (
+                  <a className="btn primary" href="/projects/food">Live</a>
                 ) : (
                   p.live && (
                     <a className="btn primary" href={p.live} target="_blank" rel="noreferrer">Live</a>
