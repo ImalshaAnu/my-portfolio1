@@ -37,7 +37,7 @@ function Expenses() {
           </p>
           <div className="coco-meta">
             <div className="meta-item"><span>Stack:</span> MERN Stack (MongoDB, Express.js, React.js, Node.js)</div>
-            <div className="meta-item"><span>Features:</span> Add/Edit/Delete expenses, categories, monthly reports</div>
+            <div className="meta-item"><span>Features:</span> Add/Edit/Delete, categories, monthly reports</div>
           </div>
           <div className="coco-actions">
             <a className="btn" href="/">Back to Home</a>
