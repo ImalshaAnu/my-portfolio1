@@ -102,59 +102,6 @@ function Contact() {
           </ul>
         </div>
         
-        <div className="contact-form">
-          <h3>Send Message</h3>
-          <form className="form" onSubmit={submit}>
-            <div className="form-group">
-              <input 
-                type="text" 
-                name="name"
-                placeholder="Full Name" 
-                className="form-input"
-                value={form.name}
-                onChange={update}
-                required
-              />
-            </div>
-            <div className="form-group">
-              <input 
-                type="email" 
-                name="email"
-                placeholder="Your Email (for reply)" 
-                className="form-input"
-                value={form.email}
-                onChange={update}
-                required
-              />
-            </div>
-            <div className="form-group">
-              <input 
-                type="text" 
-                name="subject"
-                placeholder="Subject" 
-                className="form-input"
-                value={form.subject}
-                onChange={update}
-              />
-            </div>
-            <div className="form-group">
-              <textarea 
-                name="message"
-                placeholder="Your Message" 
-                className="form-textarea"
-                rows="5"
-                value={form.message}
-                onChange={update}
-                required
-              />
-            </div>
-            <button type="submit" className="btn primary form-submit" disabled={status.sending}>
-              {status.sending ? 'Sending...' : 'Send Message'}
-            </button>
-            {status.ok && <p style={{ color: '#22c55e', marginTop: 12 }}>If your email app opened, you can send the message from there.</p>}
-            {status.ok === false && <p style={{ color: '#ef4444', marginTop: 12 }}>{status.error}</p>}
-          </form>
-        </div>
       </div>
     </section>
   );
