@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Cocolanka from "./pages/Cocolanka";
 import Expenses from "./pages/Expenses";
 import Food from "./pages/food";
+import Game from "./pages/Game";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           <Route path="/projects/cocolanka" element={<Cocolanka />} />
           <Route path="/projects/expenses" element={<Expenses />} />
           <Route path="/projects/food" element={<Food />} />
+          <Route path="/projects/" element={<Game />} />
         </Routes>
       </main>
       <Footer />
